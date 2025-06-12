@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Star Wars SPA</title>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body>
+  <img src="./assets/images/soldado_asalto.webp" alt="Soldier" class="background-image" />
+
+  <header>
+  <div class="hamburguesa" id="menu-toggle">&#9776;</div>
+  <nav class="menu" id="menu">
+    <ul>
+      <li><button data-section="inicio">Inicio</button></li>
+      <li><button data-section="peliculas">Películas</button></li>
+      <li><button data-section="personajes">Personajes</button></li>
+      <li><button data-section="naves">Naves</button></li>
+      <li><button data-section="planetas">Planetas</button></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <main>
+    <section id="inicio" class="seccion visible">
+      <pre class="starwars-text">star<br>wars</pre>
+    </section>
+    <section id="peliculas" class="seccion"></section>
+    <section id="personajes" class="seccion"></section>
+    <section id="naves" class="seccion"></section>
+    <section id="planetas" class="seccion"></section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>

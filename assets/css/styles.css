@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  color: white;
+  position: relative;
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -10;
+  opacity: 0.92;
+}
+
+@font-face {
+  font-family: 'StarJedi';
+  src: url('../fonts/StarJedi.woff2') format('woff2'),
+       url('../fonts/StarJedi.woff') format('woff');
+}
+
+.starwars-text {
+  font-family: 'StarJedi', sans-serif;
+  font-size: 6rem;
+  -webkit-text-stroke: 5px yellow;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+/* Menú hamburguesa */
+.hamburguesa {
+  font-size: 2rem;
+  color: yellow;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  cursor: pointer;
+  z-index: 20;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Menú tipo overlay */
+.menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 80%;
+  max-width: 300px;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.95);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 15;
+  transition: left 0.3s ease;
+  padding: 2rem;
+  border-right: 2px solid yellow;
+}
+
+.menu.open {
+  left: 0;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  margin-bottom: 1.5rem;
+}
+
+.menu button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.menu button:hover {
+  color: yellow;
+}
