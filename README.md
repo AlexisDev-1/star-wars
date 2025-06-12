@@ -21,7 +21,7 @@ A responsive, single-page web application (SPA) built with HTML, CSS (Tailwind/B
 
 | 📱 Mobile | 🖥 Desktop |
 |----------|------------|
-| ![mobile-preview](./assets/screenshots/mobile-preview.jpg) | ![desktop-preview](./assets/screenshots/desktop-preview.jpg) |
+| ![mobile-preview](./assets/screenshots/mobile-preview.png) | ![desktop-preview](./assets/screenshots/desktop-preview.png) |
 
 > 📝 Screenshots will be updated once all sections are complete.
 
