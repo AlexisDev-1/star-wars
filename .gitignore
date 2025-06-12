@@ -1,0 +1,29 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Logs and runtime
+*.log
+
+# Build output (si en algún futuro lo usas)
+dist/
+build/
+
+# Fonts convertidos desde TTF
+*.ttf
+
+# Compressed files
+*.zip
+*.rar
+
+# Screenshots originales de alta resolución (opcional)
+assets/screenshots/originals/
+
+# Node (si llegas a usar herramientas automáticas)
+node_modules/
+
+# Env files (si usas alguna API privada en el futuro)
+.env
